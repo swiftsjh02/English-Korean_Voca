@@ -6,7 +6,7 @@ import pandas as pd
 from urllib.request import urlopen
 import time
 from requests.api import head
-import os
+
 
 
 fields = ['단어', '뜻1', '뜻2', '뜻3','뜻4','뜻5','뜻6']  # csv 파일 제일 상단의 필드
