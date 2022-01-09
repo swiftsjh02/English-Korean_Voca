@@ -51,6 +51,7 @@ for i in range(0,len(data)): ##load data from web and save data to 2D list
     for p in readed_web.select("div.cleanword_type ul.list_search span.txt_search"):
         
         line.append(p.get_text())
+        print(p.get_text())
     
     meaning.append(line)
         
